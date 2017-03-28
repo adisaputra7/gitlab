@@ -70,7 +70,7 @@ GitLab sendiri merupakan tools yang berfungsi sebagai Version Control System (VC
 Namun, ada beberapa kekurangan yang dimiliki seperti belum tersedianya fitur <b><i>Assign multiple people to an issue/MR</i></b>, <b><i>Allow edits from upstream maintainers in branch</i></b>, atau fitur <b><i>Drag and drop tasks</i></b>. Namun secara keseluruhan, GitLab menjadi salah satu pilihan terbaik sebagai tempat penyimpanan git code anda.
 
 ## GitLab vs GitHub
-Secara umum ada beberapa perbedaan antara GitLab dan GitHub, antara lain: <br<
+Secara umum ada beberapa perbedaan antara GitLab dan GitHub, antara lain: <br>
 <b>1. Penawaran Public dan Private Project</b><br>
 Fitur public dan private yang disediakan github dapat diakses dan digunakan secara gratis. Tidak seperti Github yang hanya menyediakan layanan public saja yang gratis, sementara layanan private berbayar.
 

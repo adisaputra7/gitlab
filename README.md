@@ -19,14 +19,17 @@
 
 ●	Langkah instalasi dalam CLI.
 1. Langkah 1 - Instalasi Dependensi atau service Pendukung <br>
+	
 	```bash 
 	$ apt-get install openssh-server curl ce-certificates postfix
 	```
 
 2. Tambahkan GitLab Package dan Install GitLab <br>
+	
+	```bash 
+	$ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 	```
-	bash $ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-	```
+	
 	```bash 
 	$ sudo apt-get install gitlab-ce
 	```

@@ -56,7 +56,9 @@ ini memkana waktu beberapa menit. <br>
 Setelah itu menambahkan package repository: <br>
 
 ```bash 
-$ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash```
+$ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+```
+
 ```bash 
 $ sudo apt-get install gitlab-ce
 ```

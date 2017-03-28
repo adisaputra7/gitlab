@@ -77,7 +77,7 @@ Fitur public dan private yang disediakan github dapat diakses dan digunakan seca
 <b>2. Snippet support</b><br>
 Gitlab memiliki fitur Snippet Support , yaitu fitur yang memungkinkan pengguna dapat berbagi potongan kecil source code project tanpa berbagi keseluruhan project.
 
-<b>3. Issue Tracking atau Pelacakan Masalah<b></br>
+<b>3. Issue Tracking atau Pelacakan Masalah</b><br>
 Gitlab menawarkan fitur Issue Tracker yang kuat sehingga kita dapat melakukan perubahan dan pengalihan terhadap beberapa masalah dalam waktu yang sama. Github pun menawarkan fitur Github Issue yang berfungsi untuk melakukan pelacakan masalah dalam project.
 
 <b>4. Progress Status</b><br>

@@ -19,15 +19,15 @@
 
 ●	Langkah instalasi dalam CLI.
 1. Langkah 1 - Instalasi Dependensi atau service Pendukung <br>
-	```$ apt-get install openssh-server curl ce-certificates postfix```
+	```bash $ apt-get install openssh-server curl ce-certificates postfix```
 
 2. Tambahkan GitLab Package dan Install GitLab <br>
-	```$ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash```
-	```$ sudo apt-get install gitlab-ce```
+	```bash $ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash```
+	```bash $ sudo apt-get install gitlab-ce```
 
 3. Konfigurasi dan start GitLab <br>
-	```$ sudo gitlab-ctl reconfigure```
-	```$ gitlab-ctl start```
+	```bash $ sudo gitlab-ctl reconfigure```
+	```bash $ gitlab-ctl start```
 
 4. Selesai, lakukan testing di server
 
@@ -38,13 +38,13 @@
 Maintenance Gitlab disini lebih kepada update versi dari Gitlab. Hal Pertama yang harus dilakukan server harus up to date.
 kita bisa ketikkan pada command : <br>
 
-```sudo apt-get update -y && sudo apt-get upgrade -y``` <br>
+```bash sudo apt-get update -y && sudo apt-get upgrade -y``` <br>
 
 ini memkana waktu beberapa menit. <br>
 Setelah itu menambahkan package repository: <br>
 
-```curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash```
-```sudo apt-get install gitlab-ce```
+```bash curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash```
+```bash sudo apt-get install gitlab-ce```
 
 
 ## Otomatisasi

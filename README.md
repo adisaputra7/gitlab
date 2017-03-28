@@ -12,9 +12,10 @@
 ## Instalasi
 ●	Syarat Instalasi GitLab:
 1. Sistem Operasi Unix (Ubuntu, Debian, CentOS, Red Hat Enterprise Linux, Scientific Linux, Oracle Linux)
-2. Minimal CPU (2 cores is the recommended)
-3. 4GB RAM (recommended)
-4. PostgreSQL (recommended) atau MySQL/MariaDB
+2. Ruby (MRI) 2.3
+3. Minimal CPU (2 cores is the recommended)
+4. 4GB RAM (recommended)
+5. PostgreSQL (recommended) atau MySQL/MariaDB
 
 ●	Langkah instalasi dalam CLI.
 1. Langkah 1 - Instalasi Dependensi atau service Pendukung <br>
@@ -35,10 +36,8 @@
 
 ## Maintenance
 Maintenance Gitlab disini lebih kepada update versi dari Gitlab. Hal Pertama yang harus dilakukan server harus up to date.
-kita bisa ketikkan pada command <br>
-```sudo apt-get update -y && sudo apt-get upgrade -y``` 
-ini memkana waktu beberapa menit. Setelah itu menambahkan package repository:<br> 
-```curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+kita bisa ketikkan pada command :```sudo apt-get update -y && sudo apt-get upgrade -y``` ini memkana waktu beberapa menit.
+Setelah itu menambahkan package repository: ```curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 sudo apt-get install gitlab-ce```
 
 

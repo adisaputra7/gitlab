@@ -18,16 +18,16 @@
 5. PostgreSQL (recommended) atau MySQL/MariaDB
 
 ●	Langkah instalasi dalam CLI.
-1. Langkah 1 - Instalasi Dependensi atau service Pendukung
+1. Langkah 1 - Instalasi Dependensi atau service Pendukung <br>
 	```$ apt-get install openssh-server curl ce-certificates postfix```
 
-2. Tambahkan GitLab Package dan Install GitLab
-	$ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-	$ sudo apt-get install gitlab-ce
+2. Tambahkan GitLab Package dan Install GitLab <br>
+	```$ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash```
+	```$ sudo apt-get install gitlab-ce```
 
-3. Konfigurasi dan start GitLab
-	$ sudo gitlab-ctl reconfigure
-	$ gitlab-ctl start
+3. Konfigurasi dan start GitLab <br>
+	```$ sudo gitlab-ctl reconfigure```
+	```$ gitlab-ctl start```
 
 4. Selesai, lakukan testing di server
 

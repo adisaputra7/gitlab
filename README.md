@@ -50,7 +50,7 @@ kita bisa ketikkan pada command : <br>
 
 ```bash 
 $ sudo apt-get update -y && sudo apt-get upgrade -y
-``` <br>
+```
 
 ini memkana waktu beberapa menit. <br>
 Setelah itu menambahkan package repository: <br>

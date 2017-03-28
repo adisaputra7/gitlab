@@ -71,6 +71,7 @@ Namun, ada beberapa kekurangan yang dimiliki seperti belum tersedianya fitur <b>
 
 ## GitLab vs GitHub
 Secara umum ada beberapa perbedaan antara GitLab dan GitHub, antara lain: <br>
+
 <b>1. Penawaran Public dan Private Project</b><br>
 Fitur public dan private yang disediakan github dapat diakses dan digunakan secara gratis. Tidak seperti Github yang hanya menyediakan layanan public saja yang gratis, sementara layanan private berbayar.
 

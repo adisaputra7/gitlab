@@ -40,7 +40,7 @@ GitLab sendiri merupakan tools yang berfungsi sebagai Version Control System (VC
 2. <b>File Browser</b> <br>
 ● Halaman untuk navigasi ke kode-kode program yang berada di repositori.
 
-3. <b>Wiki>/b> <br>
+3. <b>Wiki></b> <br>
 ● Halaman Wiki dari repositori yang dapat dibuat dengan bantuan Git dan Markdown.
 
 4. <b>Code Review dan Merge Request</b> <br>

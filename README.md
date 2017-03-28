@@ -147,6 +147,31 @@ GitLab sendiri merupakan tools yang berfungsi sebagai Version Control System (VC
 
 Namun, ada beberapa kekurangan yang dimiliki seperti belum tersedianya fitur <b><i>Assign multiple people to an issue/MR</i></b>, <b><i>Allow edits from upstream maintainers in branch</i></b>, atau fitur <b><i>Drag and drop tasks</i></b>. Namun secara keseluruhan, GitLab menjadi salah satu pilihan terbaik sebagai tempat penyimpanan git code anda.
 
+## GitLab vs GitHub
+
+Secara umum ada beberapa perbedaan antara GitLab dan GitHub, antara lain: 
+
+<b>1. Penawaran Public dan Private Project</b><br>
+Fitur public dan private yang disediakan github dapat diakses dan digunakan secara gratis. Tidak seperti Github yang hanya menyediakan layanan public saja yang gratis, sementara layanan private berbayar.
+
+<b>2. Snippet support</b><br>
+Gitlab memiliki fitur Snippet Support , yaitu fitur yang memungkinkan pengguna dapat berbagi potongan kecil source code project tanpa berbagi keseluruhan project.
+
+<b>3. Issue Tracking atau Pelacakan Masalah</b><br>
+Gitlab menawarkan fitur Issue Tracker yang kuat sehingga kita dapat melakukan perubahan dan pengalihan terhadap beberapa masalah dalam waktu yang sama. Github pun menawarkan fitur Github Issue yang berfungsi untuk melakukan pelacakan masalah dalam project.
+
+<b>4. Progress Status</b><br>
+Dalam Gitlab, Para pengembang dapat memberikan label dalam project yang sedang dikerjakan dengan label "Work in Progress" sehingga memberikan kejelasan atas Project yang sedang dikerjakan. Ini memang sebuah hal yang kecil , namun ini pasti akan sangat membantu para pengembang aplikasi dan web karena Fitur ini mencegah kode yang sedang digarap digabung dengan kode lain sebelum code tersebut benar-benar selesai.
+
+<b>5. Integrasi</b><br>
+Github dan Gitlab mengintegrasikan versi sistem kontrol milik kita dengan aplikasi lain untuk memperkaya alur kerja dan dapat meningkatkan produktivitas pengembangan kita.
+
+<b>6. Github Comunnity</b><br>
+Jika Kita ingin mnencari komunitas pengembang aplikasi dan web , kemungkinan besar Github adalah tempat yang lebih baik karena Github menempatkan dirinya dalam komunitas tersebut. Apalagi popularitasnya didorong dengan para anggota komunitas Github yang aktif.
+
+<b>7. Github Enterprise vs Gitlab Enterprise</b><br>
+Github sangat populer dikalangan Pengembang. Namun, itu belum sepenuhnya meyakinkan para Perusahaan Software. Banyak perusahaan yang masih memiliki beberapa kekhawatiran menggunakan GitHub untuk penggunaan profesional.
+
 ## Referensi
 - <link>https://about.gitlab.com/</link>
 - <link>https://www.codepolitan.com/gitlab-layanan-penyimpan-git-gratis-dan-open-source</link>

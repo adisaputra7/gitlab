@@ -12,9 +12,10 @@
 ## Instalasi
 ●	Syarat Instalasi GitLab:
 1. Sistem Operasi Unix (Ubuntu, Debian, CentOS, Red Hat Enterprise Linux, Scientific Linux, Oracle Linux)
-2. Minimal CPU (2 cores is the recommended)
-3. 4GB RAM (recommended)
-4. PostgreSQL (recommended) atau MySQL/MariaDB
+2. Ruby (MRI) 2.3
+3. Minimal CPU (2 cores is the recommended)
+4. 4GB RAM (recommended)
+5. PostgreSQL (recommended) atau MySQL/MariaDB
 
 ●	Langkah instalasi dalam CLI.
 1. Langkah 1 - Instalasi Dependensi atau service Pendukung <br>
@@ -35,11 +36,10 @@
 
 ## Maintenance
 Maintenance Gitlab disini lebih kepada update versi dari Gitlab. Hal Pertama yang harus dilakukan server harus up to date.
-kita bisa ketikkan pada command <br>
-```sudo apt-get update -y && sudo apt-get upgrade -y``` 
-ini memkana waktu beberapa menit. Setelah itu menambahkan package repository:<br> 
-```curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-sudo apt-get install gitlab-ce```
+kita bisa ketikkan pada command :```sudo apt-get update -y && sudo apt-get upgrade -y``` ini memkana waktu beberapa menit.
+Setelah itu menambahkan package repository:
+```curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash```
+```sudo apt-get install gitlab-ce```
 
 
 ## Otomatisasi
@@ -49,55 +49,7 @@ sudo apt-get install gitlab-ce```
 ●
 
 ## Database
-Kami merekomendasikan menggunakan PostgreSQL database. Untuk MySQL coba cek disini
-[MySQL setup guide](database_mysql.md).
 
-> **Note**: because we need to make use of extensions you need at least pgsql 9.1.
-
-1. Install database packages:
-
-    ```bash
-    sudo apt-get install -y postgresql postgresql-client libpq-dev postgresql-contrib
-    ```
-
-2. Buatlah sebuah database user untuk GitLab:
-
-    ```bash
-    sudo -u postgres psql -d template1 -c "CREATE USER git CREATEDB;"
-    ```
-
-3. Buat `pg_trgm` extension (required for GitLab 8.6+):
-
-    ```bash
-    sudo -u postgres psql -d template1 -c "CREATE EXTENSION IF NOT EXISTS pg_trgm;"
-    ```
-
-4. Buat GitLab production database dan grant all privileges di database:
-
-    ```bash
-    sudo -u postgres psql -d template1 -c "CREATE DATABASE gitlabhq_production OWNER git;"
-    ```
-
-5. Coba hubungkan database baru dengan user yang telah dibuat:
-
-    ```bash
-    sudo -u git -H psql -d gitlabhq_production
-    ```
-
-6. Cek `pg_trgm` extension telah aktif:
-
-    ```bash
-    SELECT true AS enabled
-    FROM pg_available_extensions
-    WHERE name = 'pg_trgm'
-    AND installed_version IS NOT NULL;
-    ```
-
-7. Keluar dari database session:
-
-    ```bash
-    gitlabhq_production> \q
-    ```
 
 ## Pembahasan
 GitLab sendiri merupakan tools yang berfungsi sebagai Version Control System (VCS) atau lebih dikenal sebagai sebuah sistem pelacak peruabahan pada file. Ini tentu sangat berguna bagi para pengembang yang bekerja sendiri untuk projeknya atau berkolaorasi dengan pengembang lain tanpa harus takut terjadi bentrok ataupun kesulitan dalam menggabungkan hasil perubahan yang mereka lakukan. Dengan menggunakan Git, setiap perubahan pada source-code akan terlacak pesan perubahannya, apa saja yang diubah, siapa yang mengubah dan kapan waktunya. Dari segi fitur GitLab memiliki fitur yang cukup lengkap seperti:

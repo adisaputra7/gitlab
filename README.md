@@ -88,7 +88,7 @@ Anda akan diarahkan ke halaman setting Profile:
 Tambahkan SSH key pair di local:
 
 ```bash
-$ ssh-keygen
+ssh-keygen
 ```
 
 Output
@@ -117,7 +117,7 @@ The key's randomart image is:
 
 Lalu baca public key:
 ```bash
-$ cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 ```
 
 Output
@@ -181,24 +181,24 @@ $ sudo gitlab-ctl reconfigure
 
 ### Cara pemakaian script otomatisasi install
 ```bash
-$ curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-install.sh > otomasi-install.sh
+curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-install.sh > otomasi-install.sh
 ```
 ```bash
-$ chmod +x otomasi-install.sh
+chmod +x otomasi-install.sh
 ```
 ```bash
-$ ./otomasi-install.sh
+./otomasi-install.sh
 ```
 
 ### Cara pemakaian script otomatisasi update
 ```bash
-$ curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-update.sh > otomasi-update.sh
+curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-update.sh > otomasi-update.sh
 ```
 ```bash
-$ chmod +x otomasi-update.sh
+chmod +x otomasi-update.sh
 ```
 ```bash
-$ ./otomasi-update.sh
+./otomasi-update.sh
 ```
 
 ## Cara Pemakaian
@@ -230,37 +230,37 @@ Isi form sesuai project kita, lalu klik tombol ```Create project```:
 #### Global setup
 
 ```bash
-$ git config --global user.name "username_anda"
+git config --global user.name "username_anda"
 ```
 ```bash
-$ git config --global user.email "email_anda"
+git config --global user.email "email_anda"
 ```
 
 #### Create a new repository
 
 ```bash
-$ git clone http://username_anda@domain_atau_ip_anda/username_anda/nama_project_anda.git
+git clone http://username_anda@domain_atau_ip_anda/username_anda/nama_project_anda.git
 ```
 
 Contoh
 
 ```bash
-$ git clone http://williamhanugra@agrihack.party/williamhanugra/INI-PROJECT-LOH.git
+git clone http://williamhanugra@agrihack.party/williamhanugra/INI-PROJECT-LOH.git
 ```
 ```bash
-$ cd nama_folder_project_anda
+cd nama_folder_project_anda
 ```
 ```bash
-$ touch README.md
+touch README.md
 ```
 ```bash
-$ git add README.md
+git add README.md
 ```
 ```bash
-$ git commit -m "add README"
+git commit -m "add README"
 ```
 ```bash
-$ git push -u origin master
+git push -u origin master
 ```
 
 ## Database

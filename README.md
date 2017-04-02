@@ -175,10 +175,20 @@ Konfigurasi dan start GitLab <br>
     ```
 
 ## Otomatisasi
-● Untuk Otomasi pada prosess ```Install Gitlab```, download dan jalankan ./otomasi-install.sh
+● Untuk Otomatisasi pada prosess ```Install Gitlab```, download dan jalankan [a relative link](otomasi-install.sh)
 
-● Untuk Otomasi pada prosess ```Update Gitlab```, download dan jalankan ./otomasi-update.sh
+● Untuk Otomatisasi pada prosess ```Update Gitlab```, download dan jalankan ./otomasi-update.sh
 
+    ### Contoh cara pemakaian script otomatisasi
+    ```bash
+    $ curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-install.sh > otomasi-install.sh
+    ```
+    ```bash
+    $ chmod +x otomasi-install.sh
+    ```
+    ```bash
+    $ ./otomasi-install.sh
+    ```
 ## Cara Pemakaian
 
 ### Membuat Project Baru

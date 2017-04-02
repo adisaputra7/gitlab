@@ -82,12 +82,12 @@ Anda akan diarahkan ke halaman setting Profile:
 
 Tambahkan SSH key pair di local:
 
-'''
+```
 ssh-keygen
-'''
+```
 
 Output
-'''
+```
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/ubantu/.ssh/id_rsa): 
 Enter passphrase (empty for no passphrase): 
@@ -108,17 +108,17 @@ The key's randomart image is:
 |           = .   |
 |           .o    |
 +-----------------+
-'''
+```
 
 Lalu baca public key:
-'''
+```
 cat ~/.ssh/id_rsa.pub
-'''
+```
 
-'''
+```
 Output
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRbV4f0MzUMmf+GZyWqpn3Si/JwIG4yxW9/L2/CjrrupSLbSRm8UmqsIDndDmzcA2jsW67P0eHLTtzj261sLF18CIuBdesDJZJiXUO4kmwVpZxZHAJ2Wvw+ojV3VgjmRMwiJswUqmvjdnWe5ZMhJCYB8XWrUMfwJ6ea+LOR5v/oD1+N8TKfqe4iMAw8T9LmVdrJPdpBNVFRECZTx7rYAhy+neKzDKAeiPljNn/30g9t4CJVCDP2ZpAp5GS8kMMJ+eu++bNNQnd8iupoIffKHche/cattZ/znuSqtGy+G1IxHTTHrM78eEgtogb3q+0FnLLB+wZUV5GMuxaJFI3HQdV ubantu-kelompok12@ubuntu
-'''
+```
 
 Copy output public key tadi dan buka kembali website Gitlab anda.
 

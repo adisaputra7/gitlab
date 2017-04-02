@@ -46,7 +46,7 @@
 
 ## Konfigurasi
 
-<h1>First Time Login</h1>
+###First Time Login
 
 Masuk ke dalam aplikasi untuk pertama kalinya
 
@@ -70,15 +70,15 @@ Login dengan:
 Setelah itu anda akan diarahkan kedalam halaman aplikasi , disini anda dapat langsung menambahkan projects:
 ![alt text](https://lh3.googleusercontent.com/Mb-jdjxubY6-wYI_wzUYNNhEGCxT5gb1RmjfNmOKeiwadTJENbBJI3NJkaflVq1jWFxfAOE9NsfNJWthp2zwzg_jfMzaR8Xg7T3Bd3D8MIKx_l9V-92qcmdx2vUS8dNyY_SMRNf_)
 
-<h1>Profile Settings</h1>
+###Profile Settings
 
 Untuk memodifikasi profile, klik icon di pojok kanan atas, lalu pilih Profile Settings:
-![alt text](https://lh4.googleusercontent.com/ybkTf_thl1_6nHOgr4JCgNz3dvUoWwlZ6Sh1rLZXnWEw6OreS03H3k51s4-DIOTaqP72xFvAKqscl-_sctz8rFFNSrJkbpwMkX1wt7j14bhXH6vY35N1lXVwYBg3Y5OIqKc5-z1W)
+![alt text](https://lh4.googleusercontent.com/ybkTf_thl1_6nHOgr4JCgNz3dvUoWwlZ6Sh3rLZXnWEw6OreS03H3k51s4-DIOTaqP72xFvAKqscl-_sctz8rFFNSrJkbpwMkX1wt7j14bhXH6vY35N1lXVwYBg3Y5OIqKc5-z1W)
 
 Anda akan diarahkan ke halaman setting Profile:
 ![alt text](https://lh4.googleusercontent.com/RbPckMFOOK_zKNAHMiXu9I-BLOIpOv-Fw27QAZvR9wSVvpcBuqDjfrTLyXg799gTHHBu8OAJBBsoYz7Ndm8ManESDkUUWMAJHyuJtEKaBu_fUSLVuG_-S2xKyYK5WDwi5TR-xm1D)
 
-<h1>Add an SSH Key</h1>
+###Add an SSH Key
 
 Tambahkan SSH key pair di local:
 
@@ -115,8 +115,8 @@ Lalu baca public key:
 cat ~/.ssh/id_rsa.pub
 ```
 
-```
 Output
+```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRbV4f0MzUMmf+GZyWqpn3Si/JwIG4yxW9/L2/CjrrupSLbSRm8UmqsIDndDmzcA2jsW67P0eHLTtzj261sLF18CIuBdesDJZJiXUO4kmwVpZxZHAJ2Wvw+ojV3VgjmRMwiJswUqmvjdnWe5ZMhJCYB8XWrUMfwJ6ea+LOR5v/oD1+N8TKfqe4iMAw8T9LmVdrJPdpBNVFRECZTx7rYAhy+neKzDKAeiPljNn/30g9t4CJVCDP2ZpAp5GS8kMMJ+eu++bNNQnd8iupoIffKHche/cattZ/znuSqtGy+G1IxHTTHrM78eEgtogb3q+0FnLLB+wZUV5GMuxaJFI3HQdV ubantu-kelompok12@ubuntu
 ```
 
@@ -127,7 +127,7 @@ Klik pada menu SSH Keys:
 
 Anda sekarang dapat langsung manage Gitlab projects dan repositori dari local machine tanpa harus memasukkan username dan password akun Gitlab.
 
-<h1>Change Login Appreance</h1>
+###Change Login Appreance
 
 Klik icon Admin Area pada pojok kanan atas:
 ![alt text](https://lh6.googleusercontent.com/vJ4Xnf-rW4Q9HDKRUsQ39Yo7vOpOdwaKG6R0SfEh-3yMPrgovHJkkVkULxmrP397KkUcWfBVX1x5kdThYP9yjwOr3Ax3gacaGl-lOGG8W6OI8BUQi538YOCk8TMVVA9eV_cPBOSa)
@@ -139,7 +139,7 @@ Lalu klik icon setting lalu pilih Appereance:
 ![alt text](https://lh4.googleusercontent.com/CuT-1T1msPKSHaDqjHPu0wHtF6lDx90Kic1i2JLgn6pSQ5OVG-VgXuD0apePA40MITnI3S3IeOtrDOajebsT6yLuvk3Zr1kZfTscmDG8Z5hZyxFZPidbvII2hzZPhR_mSOv7YeZT)
 
 Anda akan masuk kehalaman Appereance Setting:
-![alt text](https://lh6.googleusercontent.com/GRch1RaXpuYsqxG1noecAioeZOExdi1QjwaMWMT45gcvhMnssiQPiNtB2yblewDHV0vgU3oS4uQ8J-pOFxcoPIIygpL8N3Gf8PSuD6PrfrkXRIN_feXVoycFwefUx50f5V2W1yOQ)
+![alt text](https://lh6.googleusercontent.com/GRch3RaXpuYsqxG1noecAioeZOExdi1QjwaMWMT45gcvhMnssiQPiNtB2yblewDHV0vgU3oS4uQ8J-pOFxcoPIIygpL8N3Gf8PSuD6PrfrkXRIN_feXVoycFwefUx50f5V2W1yOQ)
 
 ## Maintenance
 Maintenance Gitlab disini lebih kepada update versi dari Gitlab. Hal Pertama yang harus dilakukan server harus up to date.

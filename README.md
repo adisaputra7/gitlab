@@ -57,9 +57,11 @@ http://gitlab_domain_atau_IP
 ```
 
 Untuk pertama kalinya, gitlab akan menampilkan halaman untuk mengatur password untuk root:
+
 ![alt text](https://lh4.googleusercontent.com/tmc5aCjMaRsjOPddv_zWt6y-lnDYc2CE0_VpTap_7s04nMlV1lBTUgfvuvYbQiqPDRtNL07h611mDSt-_XI5jAwSpRoRrorIGTiikuU-fL9A-x4iAIarbOM15n_uZufMgKOsTvrc)
 
 Setelah itu anda akan diarahkan ke halaman login:
+
 ![alt text](https://lh3.googleusercontent.com/zSSROTztYtMyB9ngu0izMLmcjnY7bzouETLlQxd0J17BPiDqwbu0uTOUey9lp4H7tAAvfVXTiXE_v4h_tL9vF-nGGSem-K0Y5JNUd9tI-toftj4WimZcv14tLNAsT1t__LEVnfA1)
 
 Login dengan:
@@ -68,14 +70,17 @@ Login dengan:
     Password: [password_yang_diset]
 
 Setelah itu anda akan diarahkan kedalam halaman aplikasi , disini anda dapat langsung menambahkan projects:
+
 ![alt text](https://lh3.googleusercontent.com/Mb-jdjxubY6-wYI_wzUYNNhEGCxT5gb1RmjfNmOKeiwadTJENbBJI3NJkaflVq1jWFxfAOE9NsfNJWthp2zwzg_jfMzaR8Xg7T3Bd3D8MIKx_l9V-92qcmdx2vUS8dNyY_SMRNf_)
 
 ### Profile Settings
 
 Untuk memodifikasi profile, klik icon di pojok kanan atas, lalu pilih Profile Settings:
+
 ![alt text](https://lh4.googleusercontent.com/ybkTf_thl1_6nHOgr4JCgNz3dvUoWwlZ6Sh1rLZXnWEw6OreS03H3k51s4-DIOTaqP72xFvAKqscl-_sctz8rFFNSrJkbpwMkX1wt7j14bhXH6vY35N1lXVwYBg3Y5OIqKc5-z1W)
 
 Anda akan diarahkan ke halaman setting Profile:
+
 ![alt text](https://lh4.googleusercontent.com/RbPckMFOOK_zKNAHMiXu9I-BLOIpOv-Fw27QAZvR9wSVvpcBuqDjfrTLyXg799gTHHBu8OAJBBsoYz7Ndm8ManESDkUUWMAJHyuJtEKaBu_fUSLVuG_-S2xKyYK5WDwi5TR-xm1D)
 
 ### Add an SSH Key
@@ -123,6 +128,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRbV4f0MzUMmf+GZyWqpn3Si/JwIG4yxW9/L2/Cjrr
 Copy output public key tadi dan buka kembali website Gitlab anda.
 
 Klik pada menu SSH Keys:
+
 ![alt text](https://lh6.googleusercontent.com/C7QdUbF0QxDQQSWsDyInQteLnmzbaps6yHDpIVfhrCVqX5gvKQtxKGomDwSwTj6WBZ9c2DOFBP-tPs2isSIAJHagh5pFhSAK4db-1ZipAPdbHd8ZgXyNdWQa3ueRGIPKZpXLHOsk)
 
 Anda sekarang dapat langsung manage Gitlab projects dan repositori dari local machine tanpa harus memasukkan username dan password akun Gitlab.
@@ -130,15 +136,19 @@ Anda sekarang dapat langsung manage Gitlab projects dan repositori dari local ma
 ### Change Login Appreance
 
 Klik icon Admin Area pada pojok kanan atas:
+
 ![alt text](https://lh6.googleusercontent.com/vJ4Xnf-rW4Q9HDKRUsQ39Yo7vOpOdwaKG6R0SfEh-3yMPrgovHJkkVkULxmrP397KkUcWfBVX1x5kdThYP9yjwOr3Ax3gacaGl-lOGG8W6OI8BUQi538YOCk8TMVVA9eV_cPBOSa)
 
 Halaman Admin Area:
+
 ![alt text](https://lh4.googleusercontent.com/HW9zQw2Z62IqFiptk29vPnNRfoMubAxxGNKrErOCb9yxPjFDJjWDP1P6JVCwQoGaYi37zuVe9Oo4ee81aSxwd_OJSNR2xBXfpip0VQTiS63Prpm7g6zCDeEu2yAI7Uh4mgU-jZZE)
 
 Lalu klik icon setting lalu pilih Appereance:
+
 ![alt text](https://lh4.googleusercontent.com/CuT-1T1msPKSHaDqjHPu0wHtF6lDx90Kic1i2JLgn6pSQ5OVG-VgXuD0apePA40MITnI3S3IeOtrDOajebsT6yLuvk3Zr1kZfTscmDG8Z5hZyxFZPidbvII2hzZPhR_mSOv7YeZT)
 
 Anda akan masuk kehalaman Appereance Setting:
+
 ![alt text](https://lh6.googleusercontent.com/GRch1RaXpuYsqxG1noecAioeZOExdi1QjwaMWMT45gcvhMnssiQPiNtB2yblewDHV0vgU3oS4uQ8J-pOFxcoPIIygpL8N3Gf8PSuD6PrfrkXRIN_feXVoycFwefUx50f5V2W1yOQ)
 
 ## Maintenance

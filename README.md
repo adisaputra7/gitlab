@@ -46,7 +46,7 @@
 
 ## Konfigurasi
 
-### First Time Login
+● ### First Time Login
 
 Masuk ke dalam aplikasi untuk pertama kalinya
 
@@ -73,7 +73,7 @@ Setelah itu anda akan diarahkan kedalam halaman aplikasi , disini anda dapat lan
 
 ![alt text](https://lh3.googleusercontent.com/Mb-jdjxubY6-wYI_wzUYNNhEGCxT5gb1RmjfNmOKeiwadTJENbBJI3NJkaflVq1jWFxfAOE9NsfNJWthp2zwzg_jfMzaR8Xg7T3Bd3D8MIKx_l9V-92qcmdx2vUS8dNyY_SMRNf_)
 
-### Profile Settings
+● ### Profile Settings
 
 Untuk memodifikasi profile, klik icon di pojok kanan atas, lalu pilih Profile Settings:
 
@@ -83,11 +83,11 @@ Anda akan diarahkan ke halaman setting Profile:
 
 ![alt text](https://lh4.googleusercontent.com/RbPckMFOOK_zKNAHMiXu9I-BLOIpOv-Fw27QAZvR9wSVvpcBuqDjfrTLyXg799gTHHBu8OAJBBsoYz7Ndm8ManESDkUUWMAJHyuJtEKaBu_fUSLVuG_-S2xKyYK5WDwi5TR-xm1D)
 
-### Add an SSH Key
+● ### Add an SSH Key
 
 Tambahkan SSH key pair di local:
 
-```
+```bash
 ssh-keygen
 ```
 
@@ -116,7 +116,7 @@ The key's randomart image is:
 ```
 
 Lalu baca public key:
-```
+```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
@@ -133,7 +133,7 @@ Klik pada menu SSH Keys:
 
 Anda sekarang dapat langsung manage Gitlab projects dan repositori dari local machine tanpa harus memasukkan username dan password akun Gitlab.
 
-### Change Login Appreance
+● ### Change Login Appreance
 
 Klik icon Admin Area pada pojok kanan atas:
 
@@ -175,7 +175,66 @@ $ sudo apt-get install gitlab-ce
 
 
 ## Cara Pemakaian
-●
+
+### Membuat Project Baru
+
+Masuk ke form register pada domain atau ip yang sudah di install Gitlab:
+
+```
+http://gitlab_domain_atau_IP
+```
+
+![alt text](https://lh6.googleusercontent.com/F2TdI2Ux3SBfTfomSSTuS5-EkdJvTqhJnctBF8t8IUk9stcemm5RfAOZWz2NhhkuXHL1nfWWuTpo2alk6wF5Jzwagftqfy6rMSJoWCqvzXDzbGGWQ-s192JE9o1mZbX9mR4gpiN7)
+
+Lalu setelah register anda akan langsung masuk dan diarahkan ke Landing page Gitlab:
+
+![alt text](https://lh4.googleusercontent.com/6hNwLeqkpfnalqs-tl06fPTcbVPXqR38EdHMUTVehueJX_vlBL6KexGCc_G4mpXJz4j7v7iOsnTa-QAZqQDX-h61LE-gdPQMWZY4wp4X6EKoyMv0F6f6BX7pYx8osnYeJuleXSPx)
+
+Lalu klik tombol ```New project```:
+
+![alt text](https://lh3.googleusercontent.com/4lZOPo4GHdgeEvOdGHyrVbPWEPx6YBvgmrNi-KG9OeQO-Fw7vVqCPtfAsjZi0erahCKna1g8K43QrkMJ0-s8iDwuAnPzKkQyHiuCsRo5j76M6sTR13CXPVtgoYefD6qT8MUPpSuO)
+
+Isi form sesuai project kita, lalu klik tombol ```Create project```:
+
+![alt text](https://lh3.googleusercontent.com/0wHzvpW_2NK4dcLyBKu3QH1TmC0Asapc1_exkRC3m7D0-voVLtp2AcmWPcySxz6pkCgQFyw93iaeCTdrjJIBSvw87LREfKucvFPfNInkmK_itMCi9KPtwfcAWs_74YqwWubvFLEC)
+
+### Basic Setting dan Pemakaian di Terminal
+
+#### global setup
+
+```bash
+git config --global user.name "username_anda"
+```
+```bash
+git config --global user.email "email_anda"
+```
+
+#### Create a new repository
+
+```bash
+git clone http://username_anda@domain_atau_ip_anda/username_anda/nama_project_anda.git
+```
+
+Contoh
+
+```bash
+git clone http://williamhanugra@agrihack.party/williamhanugra/INI-PROJECT-LOH.git
+```
+```bash
+cd nama_folder_project_anda
+```
+```bash
+touch README.md
+```
+```bash
+git add README.md
+```
+```bash
+git commit -m "add README"
+```
+```bash
+git push -u origin master
+```
 
 ## Database
 Kami merekomendasikan menggunakan PostgreSQL database. Untuk MySQL coba cek disini

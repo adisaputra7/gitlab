@@ -170,25 +170,37 @@ $ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.
 $ sudo apt-get install gitlab-ce
 ```
 Konfigurasi dan start GitLab <br>
-    ```bash 
-    $ sudo gitlab-ctl reconfigure
-    ```
+```bash 
+$ sudo gitlab-ctl reconfigure
+```
 
 ## Otomatisasi
-● Untuk Otomatisasi pada prosess ```Install Gitlab```, download dan jalankan [a relative link](otomasi-install.sh)
+● Untuk Otomatisasi pada prosess ```Install Gitlab```, download dan jalankan [otomasi-install.sh](otomasi-install.sh)
 
-● Untuk Otomatisasi pada prosess ```Update Gitlab```, download dan jalankan ./otomasi-update.sh
+● Untuk Otomatisasi pada prosess ```Update Gitlab```, download dan jalankan [otomasi-update.sh](otomasi-install.sh)
 
-    ### Contoh cara pemakaian script otomatisasi
-    ```bash
-    $ curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-install.sh > otomasi-install.sh
-    ```
-    ```bash
-    $ chmod +x otomasi-install.sh
-    ```
-    ```bash
-    $ ./otomasi-install.sh
-    ```
+### Cara pemakaian script otomatisasi install
+```bash
+$ curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-install.sh > otomasi-install.sh
+```
+```bash
+$ chmod +x otomasi-install.sh
+```
+```bash
+$ ./otomasi-install.sh
+```
+
+### Cara pemakaian script otomatisasi update
+```bash
+$ curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-update.sh > otomasi-update.sh
+```
+```bash
+$ chmod +x otomasi-update.sh
+```
+```bash
+$ ./otomasi-update.sh
+```
+
 ## Cara Pemakaian
 
 ### Membuat Project Baru

@@ -38,15 +38,15 @@
 	```bash 
 	$ sudo gitlab-ctl reconfigure
 	```
-	```bash 
-	$ gitlab-ctl start
-	```
 
-4. Selesai, lakukan testing di server
+4. Selesai, testing di domain atau ip tempat install Gitlab:
+    ```
+    http://gitlab_domain_atau_IP
+    ```
 
 ## Konfigurasi
 
-● ### First Time Login
+### First Time Login
 
 Masuk ke dalam aplikasi untuk pertama kalinya
 
@@ -73,7 +73,7 @@ Setelah itu anda akan diarahkan kedalam halaman aplikasi , disini anda dapat lan
 
 ![alt text](https://lh3.googleusercontent.com/Mb-jdjxubY6-wYI_wzUYNNhEGCxT5gb1RmjfNmOKeiwadTJENbBJI3NJkaflVq1jWFxfAOE9NsfNJWthp2zwzg_jfMzaR8Xg7T3Bd3D8MIKx_l9V-92qcmdx2vUS8dNyY_SMRNf_)
 
-● ### Profile Settings
+### Profile Settings
 
 Untuk memodifikasi profile, klik icon di pojok kanan atas, lalu pilih Profile Settings:
 
@@ -83,12 +83,12 @@ Anda akan diarahkan ke halaman setting Profile:
 
 ![alt text](https://lh4.googleusercontent.com/RbPckMFOOK_zKNAHMiXu9I-BLOIpOv-Fw27QAZvR9wSVvpcBuqDjfrTLyXg799gTHHBu8OAJBBsoYz7Ndm8ManESDkUUWMAJHyuJtEKaBu_fUSLVuG_-S2xKyYK5WDwi5TR-xm1D)
 
-● ### Add an SSH Key
+### Add an SSH Key
 
 Tambahkan SSH key pair di local:
 
 ```bash
-ssh-keygen
+$ ssh-keygen
 ```
 
 Output
@@ -117,7 +117,7 @@ The key's randomart image is:
 
 Lalu baca public key:
 ```bash
-cat ~/.ssh/id_rsa.pub
+$ cat ~/.ssh/id_rsa.pub
 ```
 
 Output
@@ -133,7 +133,7 @@ Klik pada menu SSH Keys:
 
 Anda sekarang dapat langsung manage Gitlab projects dan repositori dari local machine tanpa harus memasukkan username dan password akun Gitlab.
 
-● ### Change Login Appreance
+### Change Login Appreance
 
 Klik icon Admin Area pada pojok kanan atas:
 
@@ -169,10 +169,15 @@ $ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.
 ```bash 
 $ sudo apt-get install gitlab-ce
 ```
-
+Konfigurasi dan start GitLab <br>
+    ```bash 
+    $ sudo gitlab-ctl reconfigure
+    ```
 
 ## Otomatisasi
+● Untuk Otomasi pada prosess ```Install Gitlab```, download dan jalankan ./otomasi-install.sh
 
+● Untuk Otomasi pada prosess ```Update Gitlab```, download dan jalankan ./otomasi-update.sh
 
 ## Cara Pemakaian
 
@@ -200,40 +205,40 @@ Isi form sesuai project kita, lalu klik tombol ```Create project```:
 
 ### Basic Setting dan Pemakaian di Terminal
 
-#### global setup
+#### Global setup
 
 ```bash
-git config --global user.name "username_anda"
+$ git config --global user.name "username_anda"
 ```
 ```bash
-git config --global user.email "email_anda"
+$ git config --global user.email "email_anda"
 ```
 
 #### Create a new repository
 
 ```bash
-git clone http://username_anda@domain_atau_ip_anda/username_anda/nama_project_anda.git
+$ git clone http://username_anda@domain_atau_ip_anda/username_anda/nama_project_anda.git
 ```
 
 Contoh
 
 ```bash
-git clone http://williamhanugra@agrihack.party/williamhanugra/INI-PROJECT-LOH.git
+$ git clone http://williamhanugra@agrihack.party/williamhanugra/INI-PROJECT-LOH.git
 ```
 ```bash
-cd nama_folder_project_anda
+$ cd nama_folder_project_anda
 ```
 ```bash
-touch README.md
+$ touch README.md
 ```
 ```bash
-git add README.md
+$ git add README.md
 ```
 ```bash
-git commit -m "add README"
+$ git commit -m "add README"
 ```
 ```bash
-git push -u origin master
+$ git push -u origin master
 ```
 
 ## Database

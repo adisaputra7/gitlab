@@ -46,7 +46,7 @@
 
 ## Konfigurasi
 
-###First Time Login
+### First Time Login
 
 Masuk ke dalam aplikasi untuk pertama kalinya
 
@@ -70,7 +70,7 @@ Login dengan:
 Setelah itu anda akan diarahkan kedalam halaman aplikasi , disini anda dapat langsung menambahkan projects:
 ![alt text](https://lh3.googleusercontent.com/Mb-jdjxubY6-wYI_wzUYNNhEGCxT5gb1RmjfNmOKeiwadTJENbBJI3NJkaflVq1jWFxfAOE9NsfNJWthp2zwzg_jfMzaR8Xg7T3Bd3D8MIKx_l9V-92qcmdx2vUS8dNyY_SMRNf_)
 
-###Profile Settings
+### Profile Settings
 
 Untuk memodifikasi profile, klik icon di pojok kanan atas, lalu pilih Profile Settings:
 ![alt text](https://lh4.googleusercontent.com/ybkTf_thl1_6nHOgr4JCgNz3dvUoWwlZ6Sh3rLZXnWEw6OreS03H3k51s4-DIOTaqP72xFvAKqscl-_sctz8rFFNSrJkbpwMkX1wt7j14bhXH6vY35N1lXVwYBg3Y5OIqKc5-z1W)
@@ -78,7 +78,7 @@ Untuk memodifikasi profile, klik icon di pojok kanan atas, lalu pilih Profile Se
 Anda akan diarahkan ke halaman setting Profile:
 ![alt text](https://lh4.googleusercontent.com/RbPckMFOOK_zKNAHMiXu9I-BLOIpOv-Fw27QAZvR9wSVvpcBuqDjfrTLyXg799gTHHBu8OAJBBsoYz7Ndm8ManESDkUUWMAJHyuJtEKaBu_fUSLVuG_-S2xKyYK5WDwi5TR-xm1D)
 
-###Add an SSH Key
+### Add an SSH Key
 
 Tambahkan SSH key pair di local:
 
@@ -127,7 +127,7 @@ Klik pada menu SSH Keys:
 
 Anda sekarang dapat langsung manage Gitlab projects dan repositori dari local machine tanpa harus memasukkan username dan password akun Gitlab.
 
-###Change Login Appreance
+### Change Login Appreance
 
 Klik icon Admin Area pada pojok kanan atas:
 ![alt text](https://lh6.googleusercontent.com/vJ4Xnf-rW4Q9HDKRUsQ39Yo7vOpOdwaKG6R0SfEh-3yMPrgovHJkkVkULxmrP397KkUcWfBVX1x5kdThYP9yjwOr3Ax3gacaGl-lOGG8W6OI8BUQi538YOCk8TMVVA9eV_cPBOSa)

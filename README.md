@@ -73,7 +73,7 @@ Setelah itu anda akan diarahkan kedalam halaman aplikasi , disini anda dapat lan
 ### Profile Settings
 
 Untuk memodifikasi profile, klik icon di pojok kanan atas, lalu pilih Profile Settings:
-![alt text](https://lh4.googleusercontent.com/ybkTf_thl1_6nHOgr4JCgNz3dvUoWwlZ6Sh3rLZXnWEw6OreS03H3k51s4-DIOTaqP72xFvAKqscl-_sctz8rFFNSrJkbpwMkX1wt7j14bhXH6vY35N1lXVwYBg3Y5OIqKc5-z1W)
+![alt text](https://lh4.googleusercontent.com/ybkTf_thl1_6nHOgr4JCgNz3dvUoWwlZ6Sh1rLZXnWEw6OreS03H3k51s4-DIOTaqP72xFvAKqscl-_sctz8rFFNSrJkbpwMkX1wt7j14bhXH6vY35N1lXVwYBg3Y5OIqKc5-z1W)
 
 Anda akan diarahkan ke halaman setting Profile:
 ![alt text](https://lh4.googleusercontent.com/RbPckMFOOK_zKNAHMiXu9I-BLOIpOv-Fw27QAZvR9wSVvpcBuqDjfrTLyXg799gTHHBu8OAJBBsoYz7Ndm8ManESDkUUWMAJHyuJtEKaBu_fUSLVuG_-S2xKyYK5WDwi5TR-xm1D)
@@ -139,7 +139,7 @@ Lalu klik icon setting lalu pilih Appereance:
 ![alt text](https://lh4.googleusercontent.com/CuT-1T1msPKSHaDqjHPu0wHtF6lDx90Kic1i2JLgn6pSQ5OVG-VgXuD0apePA40MITnI3S3IeOtrDOajebsT6yLuvk3Zr1kZfTscmDG8Z5hZyxFZPidbvII2hzZPhR_mSOv7YeZT)
 
 Anda akan masuk kehalaman Appereance Setting:
-![alt text](https://lh6.googleusercontent.com/GRch3RaXpuYsqxG1noecAioeZOExdi1QjwaMWMT45gcvhMnssiQPiNtB2yblewDHV0vgU3oS4uQ8J-pOFxcoPIIygpL8N3Gf8PSuD6PrfrkXRIN_feXVoycFwefUx50f5V2W1yOQ)
+![alt text](https://lh6.googleusercontent.com/GRch1RaXpuYsqxG1noecAioeZOExdi1QjwaMWMT45gcvhMnssiQPiNtB2yblewDHV0vgU3oS4uQ8J-pOFxcoPIIygpL8N3Gf8PSuD6PrfrkXRIN_feXVoycFwefUx50f5V2W1yOQ)
 
 ## Maintenance
 Maintenance Gitlab disini lebih kepada update versi dari Gitlab. Hal Pertama yang harus dilakukan server harus up to date.

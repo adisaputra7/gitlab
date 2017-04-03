@@ -21,22 +21,22 @@
 1. Langkah 1 - Instalasi Dependensi atau service Pendukung <br>
 	
 	```bash 
-	$ apt-get install openssh-server curl ce-certificates
+    apt-get install openssh-server curl ce-certificates
 	```
 
 2. Tambahkan GitLab Package dan Install GitLab <br>
 	
 	```bash 
-	$ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+    curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 	```
 	
 	```bash 
-	$ sudo apt-get install gitlab-ce
+    sudo apt-get install gitlab-ce
 	```
 
 3. Konfigurasi dan start GitLab <br>
 	```bash 
-	$ sudo gitlab-ctl reconfigure
+    sudo gitlab-ctl reconfigure
 	```
 
 4. Selesai, testing di domain atau ip tempat install Gitlab:
@@ -174,33 +174,6 @@ Konfigurasi dan start GitLab <br>
 $ sudo gitlab-ctl reconfigure
 ```
 
-## Otomatisasi
-● Untuk Otomatisasi pada prosess ```Install Gitlab```, download dan jalankan [otomasi-install.sh](otomasi-install.sh)
-
-● Untuk Otomatisasi pada prosess ```Update Gitlab```, download dan jalankan [otomasi-update.sh](otomasi-install.sh)
-
-### Cara pemakaian script otomatisasi install
-```bash
-curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-install.sh > otomasi-install.sh
-```
-```bash
-chmod +x otomasi-install.sh
-```
-```bash
-./otomasi-install.sh
-```
-
-### Cara pemakaian script otomatisasi update
-```bash
-curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-update.sh > otomasi-update.sh
-```
-```bash
-chmod +x otomasi-update.sh
-```
-```bash
-./otomasi-update.sh
-```
-
 ## Cara Pemakaian
 
 ### Membuat Project Baru
@@ -313,6 +286,33 @@ Kami merekomendasikan menggunakan PostgreSQL database. Untuk MySQL coba cek disi
     ```bash
     gitlabhq_production> \q
     ```
+
+## Otomatisasi
+● Untuk Otomatisasi pada prosess ```Install Gitlab```, download dan jalankan [otomasi-install.sh](otomasi-install.sh)
+
+### Cara pemakaian script otomatisasi install
+```bash
+curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-install.sh > otomasi-install.sh
+```
+```bash
+chmod +x otomasi-install.sh
+```
+```bash
+./otomasi-install.sh
+```
+
+● Untuk Otomatisasi pada prosess ```Update Gitlab```, download dan jalankan [otomasi-update.sh](otomasi-install.sh)
+
+### Cara pemakaian script otomatisasi update
+```bash
+curl -sS https://raw.githubusercontent.com/mohamadravena08/gitlab/master/otomasi-update.sh > otomasi-update.sh
+```
+```bash
+chmod +x otomasi-update.sh
+```
+```bash
+./otomasi-update.sh
+```
 
 ## Pembahasan
 GitLab sendiri merupakan tools yang berfungsi sebagai Version Control System (VCS) atau lebih dikenal sebagai sebuah sistem pelacak peruabahan pada file. Ini tentu sangat berguna bagi para pengembang yang bekerja sendiri untuk projeknya atau berkolaorasi dengan pengembang lain tanpa harus takut terjadi bentrok ataupun kesulitan dalam menggabungkan hasil perubahan yang mereka lakukan. Dengan menggunakan Git, setiap perubahan pada source-code akan terlacak pesan perubahannya, apa saja yang diubah, siapa yang mengubah dan kapan waktunya. Dari segi fitur GitLab memiliki fitur yang cukup lengkap seperti:

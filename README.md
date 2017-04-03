@@ -301,7 +301,7 @@ chmod +x otomasi-install.sh
 ./otomasi-install.sh
 ```
 
-● Untuk Otomatisasi pada prosess ```Update Gitlab```, download dan jalankan [otomasi-update.sh](otomasi-install.sh)
+● Untuk Otomatisasi pada prosess ```Update Gitlab```, download dan jalankan [otomasi-update.sh](otomasi-update.sh)
 
 ### Cara pemakaian script otomatisasi update
 ```bash

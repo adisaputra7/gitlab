@@ -1,7 +1,5 @@
 # Aplikasi Web "Gitlab"
-<div style="text-align:center">
-<img src ="http://www.versusgameplay.com/wp-content/uploads/2015/01/PxG_LogoPanda.png" />
-
+![Panda-Gitlab](http://www.versusgameplay.com/wp-content/uploads/2015/01/PxG_LogoPanda.png)
 
 > Lu William Hanugra (G64140070)
 
@@ -10,7 +8,7 @@
 > Nur Hadi Saputra (G64140044)
 
 > Iskandar Zulkarnain Lubis (G64130075)
-</div>
+
 ## Sekilas Tentang
 <b>GitLab Inc.</b> adalah perusahan yang berbasis <i>open-source</i>. GitLab merupakan aplikasi yang berfungsi melalukan code (pengkodean), test (pengujian), serta deploy code secara bersama-sama. GitLab juga menyediakan manajemen repositori Git dengan kontrol akses penuh, code reviews, issue tracking, activity feeds, wikis, serta continuous integration. GitLab adalah sebuah proyek komunitas, lebih dari 1000 orang di seluruh dunia telah memberikan kontribusi untuk GitLab!
 ## Instalasi

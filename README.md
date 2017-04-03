@@ -1,4 +1,5 @@
 # Aplikasi Web "Gitlab"
+![alt text](http://www.versusgameplay.com/wp-content/uploads/2015/01/PxG_LogoPanda.png)
 > Lu William Hanugra (G64140070)
 
 > Mohamad Ravena Utama (G64140041)
@@ -220,6 +221,7 @@ Contoh
 ```bash
 git clone http://williamhanugra@agrihack.party/williamhanugra/INI-PROJECT-LOH.git
 ```
+
 ```bash
 cd nama_folder_project_anda
 ```

@@ -1,5 +1,8 @@
 # Aplikasi Web "Gitlab"
-<div style="text-align:center"><img src ="http://www.versusgameplay.com/wp-content/uploads/2015/01/PxG_LogoPanda.png" /></div>
+<div style="text-align:center">
+<img src ="http://www.versusgameplay.com/wp-content/uploads/2015/01/PxG_LogoPanda.png" />
+</div>
+
 > Lu William Hanugra (G64140070)
 
 > Mohamad Ravena Utama (G64140041)
